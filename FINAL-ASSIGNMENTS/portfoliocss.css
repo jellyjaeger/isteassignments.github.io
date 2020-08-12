@@ -1,8 +1,8 @@
 /*border:2pxsolid black;*/
 .title-images
 {
-height:80px;
-width:50px;
+height:30px;
+width:30px;
 }
 .title-toggler
 {
@@ -14,28 +14,28 @@ width:50px;
     z-index:1;
 }
 .intro-image
-{   margin-top:-110px;
+{
     height:100vh;
     width:100vw;
     z-index:1;
+    margin-top:-20px;
 }
 @media all and (min-width:320px)
 {
     .navbar{
 
-        border:2px solid green;
+        height:0px;
         
     }
+    .navbar-brand
+    {
+        height:30px;
 
+    }
     .navbar-nav
     {
         margin-left:70%;
         font-size: 12px;
-        border:2px solid black;
-    }
-    #navbarNavAltMarkup
-    {
-        border:2px solid cyan;
     }
     .nav-link
     {
@@ -44,43 +44,52 @@ width:50px;
     }
     .intro-image{
         background:transparent;
-        margin-top:-200px;
+    
     }
 }
 @media all and (min-width:720px)
 {
-    .navbar{
-        border:2px solid black;
+   
+    .navbar-brand
+    {
+        height:80px;
+        width:80px;
     }
+    .title-images
+{
+height:80px;
+width:80px;
+}
     #navbarNavAltMarkup
     {
-        border:2px solid cyan;
+        
+        margin-left:50%;
+
     }
     .navbar-nav
     {
-        border:2px solid green;
+        
         margin-left:50%;
-        width:50%;
+        width:40%;
     }
     .nav-link
     {
-        border:2px solid grey;
+        
         height:30px;
         font-size:20px;
         width:100%;
     }
 .intro-image{
     background:transparent;
-    margin-top:-240px;
 }
 }
 @media all and (min-width:1200px)
 {
-    #navbarNavAltMarkup
+  
+    .navbar
     {
-        border:2px solid cyan;
-        margin-top:-5%;
-        width:100%;
+        
+        height:20%;
     }
     
     .images-title
@@ -90,10 +99,23 @@ width:50px;
     }
     .nav-link
     {
-        width:100%;
-        border:2px solid orange;
-        height:30px;
-        font-size:20px;
+        
+        height:60px;
+        font-size:25px;
     }
-  
+    #navbarNavAltMarkup
+    {
+        margin-left:40%;
+        
+        height:2em;
+    }
+    .navbar-nav
+    {
+        width:100%;
+        margin-left:0%;
+    }
+    .intro-image
+    {
+        margin-top:-100px;
+    }
 }
